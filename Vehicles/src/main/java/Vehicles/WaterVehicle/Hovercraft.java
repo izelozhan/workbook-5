@@ -1,6 +1,4 @@
 package Vehicles.WaterVehicle;
 
-import Vehicles.Vehicle;
-
-public class Hovercraft extends Vehicle {
+public class Hovercraft extends WaterVehicle {
 }

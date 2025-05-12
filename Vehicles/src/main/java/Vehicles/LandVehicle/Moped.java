@@ -1,5 +1,5 @@
 package Vehicles.LandVehicle;
-import Vehicles.Vehicle;
 
-public class Moped extends Vehicle {
+
+public class Moped extends LandVehicle {
 }
