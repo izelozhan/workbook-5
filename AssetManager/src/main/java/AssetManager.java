@@ -18,19 +18,19 @@ public class AssetManager {
 
         for (Asset a: assets){
             if (a instanceof House){
-                System.out.println("My house adress is " + ((House) a).getAddress()); // ask about it
+                System.out.println(a.getDescription() + " address is " + ((House) a).getAddress()); // ask about it
             } else if (a instanceof Vehicle) {
                 System.out.println("My vehicle is " + ((Vehicle) a).makeModel);
             }
         }
 
-        for (Asset a: assets){
-            if (a.getClass() == House.class){
-                System.out.println("My house adress is " + ((House) a).getAddress()); // ask about it
-            } else if (a.getClass() == Vehicle.class) {
-                System.out.println("My vehicle is " + ((Vehicle) a).makeModel);
-            }
-        }
+//        for (Asset a: assets){
+//            if (a.getClass() == House.class){
+//                System.out.println("My house address is " + ((House) a).getAddress()); // ask about it
+//            } else if (a.getClass() == Vehicle.class) {
+//                System.out.println("My vehicle is " + ((Vehicle) a).makeModel);
+//            }
+//        }
     }
 }
 

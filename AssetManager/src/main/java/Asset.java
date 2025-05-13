@@ -9,10 +9,6 @@ public class Asset {
         this.description = description;
     }
 
-    public Asset() {
-    }
-
-
     public String getDescription() {
         return description;
     }
